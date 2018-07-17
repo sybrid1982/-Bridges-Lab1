@@ -3,6 +3,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+header {
+    margin: 25px;
+}
+
 h6 {
     display: inline;
     font-weight: bold;
@@ -27,4 +31,15 @@ h6 {
     padding-bottom: 5px;
     border-radius: 25px;
     color: #fff;
+}
+
+.left {
+    float: left;
+    width: 45%;
+    margin: 25px;
+}
+
+.left > p {
+    border-left: 2px solid #69696a;
+    padding-left: 15px;
 }
