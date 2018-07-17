@@ -1,3 +1,30 @@
+body {
+    background-color: #f9fafc;
+    font-family: 'Open Sans', sans-serif;
+}
+
 h6 {
-    
+    display: inline;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#links {
+    float: right;
+}
+
+#links > a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+#links > .blackRoundButton {
+    margin-left: 20px;
+    background-color: #000;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    color: #fff;
 }
