@@ -10,7 +10,7 @@ header {
 h6 {
     display: inline;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #links {
@@ -31,7 +31,7 @@ h6 {
 a {
     padding-left: 20px;
     text-decoration: none;
-    color: #000;
+    color: #69696a;
 }
 
 .left {
@@ -43,6 +43,7 @@ a {
 .left > p {
     border-left: 2px solid #69696a;
     padding-left: 15px;
+    color: #69696a;
 }
 
 .right {
