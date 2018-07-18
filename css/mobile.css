@@ -7,14 +7,14 @@ a, p {
     color: #69696a;
 }
 
-h6 {
-    font-weight: bold;
+h6, a {
     font-size: 20px;
     margin: 15px 5px;
 }
 
 h2 {
-    font-size: 24px;
+    margin-top: 40px;
+    font-size: 26px;
 }
 
 a {
@@ -45,6 +45,7 @@ h2 {
 .left > p {
     border-left: 2px solid #69696a;
     padding-left: 15px;
+    font-size: 18px;
 }
 
 #bottom {
