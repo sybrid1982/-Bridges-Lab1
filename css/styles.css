@@ -1,99 +1,98 @@
-body {
-    background-color: #f9fafc;
-    font-family: 'Open Sans', sans-serif;
-}
+@media only screen and (min-width: 479px){
+    body {
+        background-color: #f9fafc;
+        font-family: 'Open Sans', sans-serif;
+        height: 200vh;
+    }
 
-header {
-    margin: 25px;
-}
+    header {
+        margin: 25px;
+    }
 
-h6 {
-    display: inline;
-    font-weight: bold;
-    font-size: 16px;
-}
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-#links {
-    float: right;
-}
+    h6 {
+        display: inline;
+        font-weight: bold;
+        font-size: 16px;
+    }
 
-.blackRoundButton {
-    margin-left: 20px;
-    background-color: #000;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border-radius: 25px;
-    color: #fff;
-}
+    #links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
-a {
-    padding-left: 20px;
-    text-decoration: none;
-    color: #69696a;
-}
+    .blackRoundButton {
+        margin-left: 20px;
+    }
 
-.left {
-    float: left;
-    width: 45%;
-    margin: 25px;
-}
+    a {
+        padding-left: 20px;
+        text-decoration: none;
+        color: #69696a;
+    }
 
-.left > p {
-    border-left: 2px solid #69696a;
-    padding-left: 15px;
-    color: #69696a;
-}
+    .left {
+        float: left;
+        width: 45%;
+        margin: 25px;
+    }
 
-.right {
-    float: right;
-    width: 40%;
-    margin: 25px;
-    position: relative;
-    height: 300px;
-    margin-top: 80px;
-}
+    .right {
+        float: right;
+        width: 40%;
+        margin: 25px;
+        position: relative;
+        height: 300px;
+        margin-top: 80px;
+    }
 
-#bigcircle {
-    display: block;
-    background-color: rgba(247, 136, 167, 0.6);
-    width: 250px;
-    height: 250px;
-    top: 0;
-    right: 75px;
-    position: absolute;
-    border-radius: 125px;
-}
+    #bigcircle {
+        display: block;
+        background-color: rgba(247, 136, 167, 0.6);
+        width: 250px;
+        height: 250px;
+        top: 0;
+        right: 75px;
+        position: absolute;
+        border-radius: 125px;
+    }
 
-#medcircle {
-    display: block;
-    background-color: rgba(247, 193, 162, 0.7);
-    width: 170px;
-    height: 170px;
-    right: 0;
-    bottom: 0px;
-    position: absolute;
-    border-radius: 85px;
-}
+    #medcircle {
+        display: block;
+        background-color: rgba(247, 193, 162, 0.7);
+        width: 170px;
+        height: 170px;
+        right: 0;
+        bottom: 0px;
+        position: absolute;
+        border-radius: 85px;
+    }
 
-#lilcircle {
-    display: block;
-    background-color: rgba(207, 130, 213, 0.6);
-    width: 120px;
-    height: 120px;
-    right: 0;
-    top: 40px;
-    position: absolute;
-    border-radius: 60px;
-}
+    #lilcircle {
+        display: block;
+        background-color: rgba(207, 130, 213, 0.6);
+        width: 120px;
+        height: 120px;
+        right: 0;
+        top: 40px;
+        position: absolute;
+        border-radius: 60px;
+    }
 
-.clear {
-    clear: both;
-}
+    .clear {
+        clear: both;
+    }
 
-#bottom > a {
-    position: fixed;
-    left: 40%;
-    bottom: 50px;
+    #bottom > a {
+        position: fixed;
+        left: 40%;
+        bottom: 50px;
+    }
 }
